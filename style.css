@@ -1,19 +1,32 @@
 .icon-container {
     display: flex;
     justify-content: center;
-    align-items: start;
-    height: 10vh;
+    align-items: center;
+    height: 20vh;
     gap: 30px;
     flex-direction: row;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+.h1 {
+    margin: 5px; 
+}
+
+.surname-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 20vh;
+    gap: 30px;
+    flex-direction: row;
+    padding-bottom: 20px;
 }
 
 
-
-.icon-container {
-    background-color: rgb(22, 22, 22);
+.icon-container, .surname-container {
+    background-color: #8DD06C;
+    margin: 0 auto 20px auto;
+    
 }
 
-h1 {
-    margin: 5; 
-}
+
